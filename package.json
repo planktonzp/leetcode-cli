@@ -1,5 +1,5 @@
 {
-  "name": "vsc-leetcode-cli",
+  "name": "@planktonzp/vsc-leetcode-cli",
   "version": "2.8.4",
   "description": "A cli tool to enjoy leetcode!",
   "engines": {
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/skygragon/leetcode-cli.git"
+    "url": "http://github.com/planktonzp/leetcode-cli.git"
   },
   "keywords": [
     "leetcode",
