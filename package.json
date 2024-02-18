@@ -1,12 +1,12 @@
 {
   "name": "@planktonzp/vsc-leetcode-cli",
-  "version": "2.8.4",
+  "version": "2.8.5",
   "description": "A cli tool to enjoy leetcode!",
   "engines": {
     "node": ">=20"
   },
   "bin": {
-    "leetcode": "./bin/leetcode"
+    "leetcode": "bin/leetcode"
   },
   "scripts": {
     "lint": "eslint lib/ test/",
@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/planktonzp/leetcode-cli.git"
+    "url": "git+ssh://git@github.com/planktonzp/leetcode-cli.git"
   },
   "keywords": [
     "leetcode",
@@ -39,10 +39,7 @@
     "command",
     "tool"
   ],
-  "author": {
-    "name": "Eric Wang",
-    "email": "skygragon@gmail.com"
-  },
+  "author": "Eric Wang <skygragon@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/leetcode-tools/leetcode-cli/issues"
@@ -72,5 +69,11 @@
     "nyc": "^15.1.0",
     "pkg": "5.8.1",
     "rewire": "7.0.0"
+  },
+  "main": ".eslintrc.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
